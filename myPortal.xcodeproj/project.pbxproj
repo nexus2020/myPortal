@@ -12,7 +12,6 @@
 		2D3C37FC206BD85100CDFEEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C37FA206BD85100CDFEEE /* Main.storyboard */; };
 		2D3C37FE206BD85100CDFEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C37FD206BD85100CDFEEE /* Assets.xcassets */; };
 		2D3C3801206BD85100CDFEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C37FF206BD85100CDFEEE /* LaunchScreen.storyboard */; };
-		2D3C3809206BD90B00CDFEEE /* wegmans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C3808206BD90B00CDFEEE /* wegmans.jpg */; };
 		2DC5F3192174FA0800F41362 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5F3182174FA0800F41362 /* art.scnassets */; };
 		2DC5F32E21750F2400F41362 /* ceiling_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5F31D21750F2400F41362 /* ceiling_tile.png */; };
 		2DC5F32F21750F2400F41362 /* dpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DC5F31E21750F2400F41362 /* dpad.png */; };
@@ -45,7 +44,6 @@
 		2D3C37FD206BD85100CDFEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3C3800206BD85100CDFEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D3C3802206BD85100CDFEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D3C3808206BD90B00CDFEEE /* wegmans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wegmans.jpg; sourceTree = "<group>"; };
 		2DC5F3182174FA0800F41362 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		2DC5F31D21750F2400F41362 /* ceiling_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ceiling_tile.png; sourceTree = "<group>"; };
 		2DC5F31E21750F2400F41362 /* dpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpad.png; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			children = (
 				2D3C37F4206BD85100CDFEEE /* AppDelegate.swift */,
 				2DC5F33F21750F3100F41362 /* Doors */,
-				2D3C3808206BD90B00CDFEEE /* wegmans.jpg */,
 				2DC5F31C21750F2400F41362 /* Images */,
 				2D3C37F8206BD85100CDFEEE /* ViewController.swift */,
 				2D3C37FA206BD85100CDFEEE /* Main.storyboard */,
@@ -233,7 +230,6 @@
 				2DC5F33A21750F2400F41362 /* wall_psychiatristinframe.png in Resources */,
 				2DC5F33D21750F2400F41362 /* wall_TMS.png in Resources */,
 				2DC5F34621750F3100F41362 /* orange_door.png in Resources */,
-				2D3C3809206BD90B00CDFEEE /* wegmans.jpg in Resources */,
 				2DC5F33021750F2400F41362 /* wall_abstract.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
