@@ -22,6 +22,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(reverse(text: "stressed"))
+        
         scene = SCNScene()
         
         // Set the view's delegate
@@ -40,6 +42,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         sceneView.allowsCameraControl = true
 
+    }
+    
+    func reverse(text: String) -> String {
+        
+        return String(text.reversed())
+        
     }
     
     func loadSphere()
