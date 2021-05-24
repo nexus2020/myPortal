@@ -140,7 +140,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Create a SceneKit plane to visualize the plane anchor using its position and extent.
         let plane = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
         let planeNode = SCNNode(geometry: plane)
-        planeNode.simdPosition = float3(planeAnchor.center.x, 0, planeAnchor.center.z)
+        planeNode.simdPosition = SIMD3(planeAnchor.center.x, 0, planeAnchor.center.z)
         
         /* SCNPlane` is vertically oriented in its local coordinate space, so rotate the plane to match the horizontal orientation of `ARPlaneAnchor`.*/
         planeNode.eulerAngles.x = -.pi / 2
@@ -161,7 +161,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             else { return }
         
         // Plane estimation may shift the center of a plane relative to its anchor's transform.
-        planeNode.simdPosition = float3(planeAnchor.center.x, 0, planeAnchor.center.z)
+        planeNode.simdPosition = SIMD3(planeAnchor.center.x, 0, planeAnchor.center.z)
         
         /* Plane estimation may extend the size of the plane, or combine previously detected planes into a larger one. In the latter case, `ARSCNView` automatically deletes the corresponding node for one plane, then calls this method to update the size of the remaining plane.*/
         plane.width = CGFloat(planeAnchor.extent.x)
